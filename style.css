@@ -140,15 +140,15 @@ a{
 .home-info .btn-sci .sci a{
     display: inline-flex;
     padding: 8px;
-    border: 2px solid rgb(0, 247, 21);
+    border: 2px solid rgb(2, 2, 2);
     border-radius: 50%;
     font-size: 20px;
-    color: rgb(0, 247, 21);
+    color: rgb(241, 54, 7);
     margin: 0 8px;
     transition: 0.5s;
 }
 .home-info .btn-sci .sci a:hover{
-    background: rgb(0, 247, 21);
+    background: rgb(247, 0, 0);
     color: #0c0c0c;
     box-shadow: 0 0 10px rgb(0, 247, 21);
 }
