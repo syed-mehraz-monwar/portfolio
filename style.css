@@ -323,3 +323,47 @@ a{
         height: 70vw;
     }
 }
+/* Hamburger Icon */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 6px;
+}
+.menu-toggle span {
+    width: 28px;
+    height: 3px;
+    background: #fff;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+/* Mobile Navbar */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: flex;
+    }
+
+    .nav-links {
+        position: absolute;
+        top: 70px;
+        right: -100%;
+        width: 200px;
+        background: #1f242d;
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        padding: 20px 0;
+        border-radius: 10px;
+        transition: 0.4s;
+    }
+
+    .nav-links li {
+        margin: 0;
+    }
+
+    .nav-links.active {
+        right: 20px;
+    }
+}
+
